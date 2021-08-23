@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 175%;
+}
+
+.food {
+    border: 1px solid black;
+    background-color: #ECF2E4;
+    height: 30%;
+}
+
+.foodTitle {
+    border: 1px solid black;
+    margin: 0;
+    width: 170px;
+    height: 40px;
+    float: right;
+    font-weight: bold;
+    font-size: 125%;
+    text-align: center;
+    padding: 3px;
+}
+
+#chickenTitle {
+    background-color: #9568A9;
+}
+
+#beefTitle {
+    background-color: #D98AE3;
+}
+
+#sushiTitle {
+    background-color: #AEBFEB;
+}
+
+p.info {
+    clear: right;
+    padding: 15px;
+}
+
+@media (min-width: 992px) {
+    .desktop {
+        float: left;
+        margin: 0;
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .tablet1, .tablet2 {
+        float: left;
+        margin: 0;
+    }
+    .tablet1 {
+        width: 50%;
+    }
+    .tablet2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .mobile {
+        width: 100%;
+        float: left;
+        margin: 0;
+    }
+}
